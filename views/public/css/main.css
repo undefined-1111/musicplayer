@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #10181d;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+.logo {
+    margin-top: 50px;
+}
+
+.container {
+    width: 80%;
+    margin: 0px auto;
+    justify-content: space-between;    
+}
+
+audio {
+    width: 100%;
+    border: 0px;
+    position: absolute;
+    top: 94%;
+    background: #f1f3f4;
+}
+
+.cards {
+    display: flex !important;
+    margin-top: 60px;
+}
+
+.card {
+    width: 250px;
+    height: 250px;
+    background: inherit;
+    background-size: auto;
+    cursor: pointer;
+    border-radius: 3px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Fuller Music</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Fuller music</h1>
+            </div>
+            <div 
+                class="card" 
+                style="background: url('/preview/ping.jpeg') no-repeat fixed;
+                background-size: auto;"
+                onclick="changetrack('/Exyl%20—%20Ping!.mp3')">
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> <!-- JQ -->
+    <script src="/js/changetrack.js"></script> <!-- For changing track-->
+    <div class="audio" id="audio">
+        <audio controls>
+            <source class="track" src="uknown" type="audio/ogg">
+            Your browser dose not Support the audio Tag
+        </audio>
+    </div>
+</body>
+</html>
